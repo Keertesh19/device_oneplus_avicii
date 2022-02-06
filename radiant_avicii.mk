@@ -21,14 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from avicii device
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Radiant stuff.
+$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
 
-# PixelExperience Properties
+# Radiant Properties
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_USES_CUSTOM_AVB_KEY := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := aosp_avicii
+PRODUCT_NAME := radiant_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -39,4 +40,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=Nord \
-    PRODUCT_NAME=Nord
+    PRODUCT_NAME=Nord \
+    PRIVATE_BUILD_DESC="raven-user 12 SQ1D.220105.007 8030436 release-keys"
+
+BUILD_FINGERPRINT := google/raven/raven:12/SQ1D.220105.007/8030436:user/release-keys
+
+TARGET_VENDOR := oneplus
