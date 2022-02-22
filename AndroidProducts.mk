@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/radiant_avicii.mk
+    $(LOCAL_DIR)/arrow_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    radiant_avicii-user \
-    radiant_avicii-userdebug \
-    radiant_avicii-eng
+    arrow_avicii-user \
+    arrow_avicii-userdebug \
+    arrow_avicii-eng
