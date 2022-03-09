@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_avicii.mk
+    $(LOCAL_DIR)/bliss_avicii.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_avicii-user \
-    arrow_avicii-userdebug \
-    arrow_avicii-eng
+    bliss_avicii-user \
+    bliss_avicii-userdebug \
+    bliss_avicii-eng
