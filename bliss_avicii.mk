@@ -23,6 +23,7 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 
 # Inherit some common BlissRom stuff.
 $(call inherit-product, vendor/bliss/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := bliss_avicii
 PRODUCT_DEVICE := avicii
