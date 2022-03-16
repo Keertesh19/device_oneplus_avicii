@@ -32,5 +32,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 7511998464
 BOARD_SUPER_PARTITION_SIZE := 15032385536
 
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := avicii
+
 # inherit from the proprietary version
 -include vendor/oneplus/avicii/BoardConfigVendor.mk
