@@ -25,6 +25,7 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 $(call inherit-product, vendor/bliss/config/common.mk)
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_NAME := bliss_avicii
 PRODUCT_DEVICE := avicii
