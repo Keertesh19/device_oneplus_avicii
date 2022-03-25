@@ -26,6 +26,9 @@ $(call inherit-product, vendor/bliss/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# UDFPS Animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 PRODUCT_NAME := bliss_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
