@@ -2,20 +2,17 @@
   {
     "remote"       : "BlissRoms-Devices",
     "repository"   : "android_device_oneplus_sm7250-common",
-    "target_path"  : "device/oneplus/sm7250-common",
-    "revision"     : "arcadia"
+    "target_path"  : "device/oneplus/sm7250-common"
   },
   {
     "remote"       : "BlissRoms-Devices",
     "repository"   : "android_kernel_oneplus_sm7250",
-    "target_path"  : "kernel/oneplus/avicii",
-    "revision"     : "arcadia"
+    "target_path"  : "kernel/oneplus/avicii"
   },
   {
     "remote"       : "BlissRoms-Devices",
     "repository"   : "vendor_oneplus_avicii",
-    "target_path"  : "vendor/oneplus/avicii",
-    "revision"     : "arcadia"
+    "target_path"  : "vendor/oneplus/avicii"
   },
   {
     "remote"      : "BlissRoms-Devices",
@@ -26,20 +23,17 @@
   {
     "remote"      : "BlissRoms-Devices",
     "repository"  : "vendor_oneplus_sm7250-common",
-    "target_path" : "vendor/oneplus/sm7250-common",
-    "revision"    : "arcadia"
+    "target_path" : "vendor/oneplus/sm7250-common"
   },
   {
     "remote"      : "gitlab",
     "repository"  : "Keertesh19/vendor_oneplus_wfdcommon",
-    "target_path" : "vendor/oneplus/wfdcommon",
-    "revision"    : "arcadia"
+    "target_path" : "vendor/oneplus/wfdcommon"
   },
   {
     "remote"      : "gitlab",
     "repository"  : "Keertesh19/android_vendor_oneplus-firmware",
-    "target_path" : "vendor/oneplus/firmware",
-    "revision"    : "arcadia"
+    "target_path" : "vendor/oneplus/firmware"
   },
   {
     "remote"      : "github",
